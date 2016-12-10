@@ -1,0 +1,21 @@
+<div class="main-inner">
+	<h2>新闻详情页</h2>
+	<div class='content detail'>
+		<div class='row'>
+			<div class='col-lg-2 t-r'>新闻标题:</div>
+			<div class='col-lg-10' ng-bind='list.title'></div>
+		</div>
+		<div class='row'>
+			<div class='col-lg-2 t-r'>新闻作者:</div>
+			<div class='col-lg-10' ng-bind='list.writer'></div>
+		</div>
+		<div class='row'>
+			<div class='col-lg-2 t-r'>新闻内容:</div>
+			<div class='col-lg-10' ng-bind='list.content'></div>
+		</div>
+		<div class='row'>
+			<div class='col-lg-2 t-r'>新闻日期:</div>
+			<div class='col-lg-10' ng-bind='list.date| date:"yyyy-MM-dd HH:mm:ss"'></div>
+		</div>
+	</div>
+</div>

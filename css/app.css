@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#ccc;
+}
+.header{
+    height:80px;
+    background:#fff;
+    box-shadow: 0px 2px #aaa;
+    line-height:80px;
+}
+.header h1 {
+    margin: 0;
+    line-height: 80px;
+}
+.header p {
+    margin-bottom: 0;
+}
+.nav {
+    width: 300px;
+    float: left;
+}
+.main {
+    margin-left: 310px;
+}
+.nav,
+.main {
+    min-height: 500px;
+    box-shadow: 1px 2px 2px #eee;
+    background: #fff;
+    margin-top: 10px;
+}
+.font20{
+    font-size: 30px;
+}
+.color{
+    color:rebeccapurple;
+}
+/*登录页css样式*/
+.login-container{
+    position:fixed;
+    top:0;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background:#ccc;
+}
+.login-container .login-inner{
+    width:600px;
+    height:300px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-150px;
+    margin-left:-300px;
+    background:#fff;
+    border-radius:10px;
+    padding:10px;
+}
+.login-container .login-inner .login-header{
+    text-align: center;
+    line-height:50px;
+    border-bottom:1px solid #aaa;
+    font-family:'Microsoft Yahei';
+}
+.login-inner .container{
+    width:100%;
+    padding-left:130px;
+    margin-top:20px;
+}
+.login-inner .container .form-group{
+    height:40px;
+}
+.login-inner .container .form-group input{
+    width:250px;
+    height:30px;
+    padding:2px 10px;
+
+}
+.login-inner .container .warning{
+    height:20px;
+    overflow:hidden;
+    padding:0px 0px 10px 60px;
+}
+.login-inner .container .btn-container{
+    width:100%;
+
+}
+.login-inner .container .btn-container .btn{
+    width:80%;
+    margin-top:15px;
+    font-size:16px;
+    font-weight:bold;
+}
+.nav{
+    padding-left:10px;
+}
+.nav h3:nth-child(1){
+    color:purple;
+}
+.nav ul{
+    padding-left:20px;
+}
+.main-inner{
+    padding-left:20px;
+}
+.main-inner h2{
+    line-height: 40px;
+    padding:20px;
+    margin-top:10px;
+    color:#456777;
+    border-bottom:1px solid #ccc;
+}
+.main-inner .row{
+    height:40px;
+}
+.main-inner .t-r {
+    text-align: right;
+}
+.main-inner input{
+    padding:3px 10px;
+    width:250px;
+
+}
+.main-inner .f-radio input {
+    width: auto;
+}
+.main-inner .f-radio label {
+    margin-right: 20px;
+}
+.con{
+        width:600px;
+        height:300px;
+        margin:20px auto;
+        background:url(1.jpg) no-repeat;
+}
