@@ -15,7 +15,7 @@
            <div class='row form-group'>
 			   <div class='col-lg-3 t-r'><label for='password'>密&emsp;码:</label></div>
 			   <div class='col-lg-4'>
-				   <input type="text" id='password' name='password' placeholder='请输入密码' ng-pattern='/^\d{6}$/' ng-model='user.password' ng-required='true'>
+				   <input type="password" id='password' name='password' placeholder='请输入密码' ng-pattern='/^\d{6}$/' ng-model='user.password' ng-required='true'>
 			   </div>
 			   <div class='col-lg-5'>
 				   <span class='text-danger' ng-show='createUser.password.$dirty && createUser.password.$invalid'>密码必填为6位数字</span>
